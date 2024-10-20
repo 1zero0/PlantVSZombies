@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 enum CardState
 {
@@ -13,6 +14,16 @@ public class Card : MonoBehaviour
 {
     // 冷却 可以被点击 不可用
     private CardState cardState = CardState.Cooling;
+
+    //要控制植物卡片的状态，就要先获取三种状态
+    public GameObject cardLight;
+    public GameObject cardGary;
+    public Image cardMask;
+
+    public float cdTime = 2;    // 冷却时间
+    public float cdTimer = 0;   // 计时器，从零开始（可以从零增加到2 ，也可以从最大减少到零）
+
+
 
     private void Update()
     {
@@ -34,7 +45,14 @@ public class Card : MonoBehaviour
 
     void CoolingUpdate()
     {
+        cdTimer += Time.deltaTime;
 
+        cardMask.fillAmount = (cdTime - cdTimer) / cdTime;  // 剩余时间的比例
+
+        if (cdTimer >= cdTime)
+        {
+            TransitionToWaitingSun();
+        }
     }
     void WaitingSunUpdate()
     {
@@ -43,5 +61,15 @@ public class Card : MonoBehaviour
     void ReadyUpdate()
     {
 
+    }
+
+    void TransitionToWaitingSun()
+    {
+        cardState = CardState.WaitingSun;   // 先改变植物卡片的状态（冷却状态改为灰色状态）
+
+        // 植物状态的启用和禁用
+        cardLight.SetActive(false);     // 将植物卡片亮禁用
+        cardGary.SetActive(true);       // 植物卡片灰启用
+        cardMask.gameObject.SetActive(false);   // 将等待状态禁用
     }
 }
