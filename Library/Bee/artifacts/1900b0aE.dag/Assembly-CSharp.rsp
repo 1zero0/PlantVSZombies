@@ -379,6 +379,7 @@
 -analyzer:"C:/qitaruanjian/unity/2022.3.43f1c1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/qitaruanjian/unity/2022.3.43f1c1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Card.cs"
+"Assets/Scripts/Manager/SunManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+

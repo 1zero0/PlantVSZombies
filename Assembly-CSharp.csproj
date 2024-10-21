@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Card.cs" />
+    <Compile Include="Assets\Scripts\Manager\SunManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

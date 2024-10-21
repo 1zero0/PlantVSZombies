@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "F:\\Unity\\Demo1\\PlantVSZombies\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|f:\\unity\\demo1\\plantvszombies\\assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|F:\\Unity\\Demo1\\PlantVSZombies\\assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|f:\\unity\\demo1\\plantvszombies\\assets\\scripts\\manager\\sunmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\sunmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|f:\\unity\\demo1\\plantvszombies\\assets\\scripts\\sunmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\sunmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SunManager.cs",
+              "DocumentMoniker": "F:\\Unity\\Demo1\\PlantVSZombies\\Assets\\Scripts\\Manager\\SunManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\SunManager.cs",
+              "ToolTip": "F:\\Unity\\Demo1\\PlantVSZombies\\Assets\\Scripts\\Manager\\SunManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\SunManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T12:07:21.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SunManager.cs",
+              "DocumentMoniker": "F:\\Unity\\Demo1\\PlantVSZombies\\Assets\\Scripts\\SunManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SunManager.cs",
+              "ToolTip": "F:\\Unity\\Demo1\\PlantVSZombies\\Assets\\Scripts\\SunManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SunManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T12:05:56.371Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +58,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Card.cs",
               "ToolTip": "F:\\Unity\\Demo1\\PlantVSZombies\\Assets\\Scripts\\Card.cs",
               "RelativeToolTip": "Assets\\Scripts\\Card.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAzwDEAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAowFUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T12:24:07.835Z",
               "EditorCaption": ""

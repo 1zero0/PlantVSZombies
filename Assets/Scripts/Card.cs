@@ -20,10 +20,12 @@ public class Card : MonoBehaviour
     public GameObject cardGary;
     public Image cardMask;
 
-    public float cdTime = 2;    // 冷却时间
-    public float cdTimer = 0;   // 计时器，从零开始（可以从零增加到2 ，也可以从最大减少到零）
+    [SerializeField]
+    private  float cdTime = 2;    // 冷却时间
+    private  float cdTimer = 0;   // 计时器，从零开始（可以从零增加到2 ，也可以从最大减少到零）
 
-
+    [SerializeField]
+    private int needSunPoint = 50;
 
     private void Update()
     {
@@ -56,7 +58,10 @@ public class Card : MonoBehaviour
     }
     void WaitingSunUpdate()
     {
-
+        if (needSunPoint <= SunManager.Instance.SunPoint)
+        {
+            TransitionToReady();
+        }
     }
     void ReadyUpdate()
     {
@@ -71,5 +76,14 @@ public class Card : MonoBehaviour
         cardLight.SetActive(false);     // 将植物卡片亮禁用
         cardGary.SetActive(true);       // 植物卡片灰启用
         cardMask.gameObject.SetActive(false);   // 将等待状态禁用
+    }
+    void TransitionToReady()
+    {
+        cardState = CardState.Ready;  
+
+        
+        cardLight.SetActive(true);     
+        cardGary.SetActive(false);       
+        cardMask.gameObject.SetActive(false);
     }
 }

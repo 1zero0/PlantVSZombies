@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "F:\\Unity\\Demo1\\PlantVSZombies\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|f:\\unity\\demo1\\plantvszombies\\assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|f:\\unity\\demo1\\plantvszombies\\assets\\scripts\\sunmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sunmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|F:\\Unity\\Demo1\\PlantVSZombies\\assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,15 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SunManager.cs",
+              "DocumentMoniker": "F:\\Unity\\Demo1\\PlantVSZombies\\Assets\\Scripts\\SunManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SunManager.cs",
+              "ToolTip": "F:\\Unity\\Demo1\\PlantVSZombies\\Assets\\Scripts\\SunManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SunManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T12:05:56.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Card.cs",
               "DocumentMoniker": "F:\\Unity\\Demo1\\PlantVSZombies\\Assets\\Scripts\\Card.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Card.cs",
               "ToolTip": "F:\\Unity\\Demo1\\PlantVSZombies\\Assets\\Scripts\\Card.cs",
               "RelativeToolTip": "Assets\\Scripts\\Card.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAqwBIAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAzwDEAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T12:24:07.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T12:24:07.835Z"
             }
           ]
         }
