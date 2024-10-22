@@ -65,7 +65,10 @@ public class Card : MonoBehaviour
     }
     void ReadyUpdate()
     {
-
+        if (needSunPoint > SunManager.Instance.SunPoint)
+        {
+            TransitionToWaitingSun();
+        }
     }
 
     void TransitionToWaitingSun()
@@ -85,5 +88,26 @@ public class Card : MonoBehaviour
         cardLight.SetActive(true);     
         cardGary.SetActive(false);       
         cardMask.gameObject.SetActive(false);
+    }
+    void TransitionCooling()
+    {
+        cardState = CardState.Cooling;
+
+        cdTimer = 0;
+        cardLight.SetActive(false);
+        cardGary.SetActive(true);
+        cardMask.gameObject.SetActive(true);
+    }
+    public void Onclick()
+    {
+        if (needSunPoint > SunManager.Instance.SunPoint) return;
+
+        // TODO：并进行种植
+        // TODO：将来要做的
+        SunManager.Instance.SubSun(needSunPoint);
+
+
+        TransitionCooling();
+
     }
 }
