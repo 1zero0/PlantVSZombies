@@ -380,6 +380,7 @@
 -analyzer:"C:/qitaruanjian/unity/2022.3.43f1c1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Card.cs"
 "Assets/Scripts/Manager/SunManager.cs"
+"Assets/Scripts/Plant.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
