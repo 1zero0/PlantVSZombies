@@ -10,10 +10,17 @@ enum CardState
     Ready
 }
 
+public enum PlantType
+{
+    Sunflower,
+    PeaShooter
+}
+
 public class Card : MonoBehaviour
 {
     // 冷却 可以被点击 不可用
     private CardState cardState = CardState.Cooling;
+    public PlantType plantType = PlantType.Sunflower;
 
     //要控制植物卡片的状态，就要先获取三种状态
     public GameObject cardLight;
@@ -104,6 +111,7 @@ public class Card : MonoBehaviour
 
         // TODO：并进行种植
         // TODO：将来要做的
+        HandManager.Instance.AddPlant(plantType);
         SunManager.Instance.SubSun(needSunPoint);
 
 

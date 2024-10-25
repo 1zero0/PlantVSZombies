@@ -7,9 +7,10 @@ enum PlantState
     Disable,
     Enable
 }
-public class Plants : MonoBehaviour
+public class Plant : MonoBehaviour
 {
     PlantState plantState = PlantState.Disable;
+    public PlantType plantType = PlantType.Sunflower;
 
 
     private void Update()
