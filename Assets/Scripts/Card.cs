@@ -111,11 +111,14 @@ public class Card : MonoBehaviour
 
         // TODO：并进行种植
         // TODO：将来要做的
-        HandManager.Instance.AddPlant(plantType);
-        SunManager.Instance.SubSun(needSunPoint);
+        bool isSuccess = HandManager.Instance.AddPlant(plantType);  //表示是否种植成功
+        if (isSuccess)
+        {
+            SunManager.Instance.SubSun(needSunPoint);
 
-
-        TransitionCooling();
+            TransitionCooling();
+        }
+       
 
     }
 }
