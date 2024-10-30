@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1090669986476555637}
   - component: {fileID: 7767528566576976287}
   - component: {fileID: 6380150945575137738}
-  - component: {fileID: 8173492377253505624}
+  - component: {fileID: 4784889493181651624}
   m_Layer: 0
   m_Name: Sunflower
   m_TagString: Untagged
@@ -107,7 +107,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &8173492377253505624
+--- !u!114 &4784889493181651624
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,7 +116,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 3996232059517812307}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdff829af59f9944485d9eb2fc5df46a, type: 3}
+  m_Script: {fileID: 11500000, guid: 81e71df42a0c8064ba3749c9a15e9ebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   plantType: 0
+  produceDuration: 5

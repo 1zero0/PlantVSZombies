@@ -9,7 +9,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsGowing
+    m_ConditionEvent: IsGlowing
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7299741744687878691}
@@ -58,7 +58,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 870263549407726531}
-    m_Position: {x: 290, y: 100, z: 0}
+    m_Position: {x: 290, y: 110, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -78,7 +78,7 @@ AnimatorController:
   m_Name: Sunflower
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: IsGowing
+  - m_Name: IsGlowing
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
