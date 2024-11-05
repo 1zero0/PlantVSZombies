@@ -121,3 +121,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   plantType: 0
   produceDuration: 5
+  sunPrefab: {fileID: 3249107213920105795, guid: 83a7e0764274b814a8f8c5585424e870, type: 3}

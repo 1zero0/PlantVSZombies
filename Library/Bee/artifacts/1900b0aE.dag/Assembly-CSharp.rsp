@@ -383,6 +383,7 @@
 "Assets/Scripts/Manager/HandManager.cs"
 "Assets/Scripts/Manager/SunManager.cs"
 "Assets/Scripts/Plant.cs"
+"Assets/Scripts/Sun.cs"
 "Assets/Scripts/Sunflower.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"

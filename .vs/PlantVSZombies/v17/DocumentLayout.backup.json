@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "F:\\Unity\\Demo1\\PlantVSZombies\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|f:\\unity\\demo1\\plantvszombies\\assets\\scripts\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|f:\\unity\\demo1\\plantvszombies\\assets\\scripts\\sun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|f:\\unity\\demo1\\plantvszombies\\assets\\scripts\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|F:\\Unity\\Demo1\\PlantVSZombies\\assets\\scripts\\manager\\sunmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\sunmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|F:\\Unity\\Demo1\\PlantVSZombies\\assets\\scripts\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|F:\\Unity\\Demo1\\PlantVSZombies\\assets\\scripts\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|F:\\Unity\\Demo1\\PlantVSZombies\\assets\\scripts\\sunflower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sunflower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|F:\\Unity\\Demo1\\PlantVSZombies\\assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|F:\\Unity\\Demo1\\PlantVSZombies\\assets\\scripts\\manager\\handmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\handmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|F:\\Unity\\Demo1\\PlantVSZombies\\assets\\scripts\\manager\\sunmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\sunmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +38,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sun.cs",
+              "DocumentMoniker": "F:\\Unity\\Demo1\\PlantVSZombies\\Assets\\Scripts\\Sun.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Sun.cs",
+              "ToolTip": "F:\\Unity\\Demo1\\PlantVSZombies\\Assets\\Scripts\\Sun.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Sun.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T10:45:16.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sunflower.cs",
+              "DocumentMoniker": "F:\\Unity\\Demo1\\PlantVSZombies\\Assets\\Scripts\\Sunflower.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Sunflower.cs",
+              "ToolTip": "F:\\Unity\\Demo1\\PlantVSZombies\\Assets\\Scripts\\Sunflower.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Sunflower.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwCAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T11:31:29.174Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -40,13 +73,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Cell.cs",
               "ToolTip": "F:\\Unity\\Demo1\\PlantVSZombies\\Assets\\Scripts\\Cell.cs",
               "RelativeToolTip": "Assets\\Scripts\\Cell.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAqwBkAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAzwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T10:00:03.92Z"
+              "WhenOpened": "2024-10-26T10:00:03.92Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "HandManager.cs",
               "DocumentMoniker": "F:\\Unity\\Demo1\\PlantVSZombies\\Assets\\Scripts\\Manager\\HandManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\HandManager.cs",
@@ -58,20 +92,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Plant.cs",
               "DocumentMoniker": "F:\\Unity\\Demo1\\PlantVSZombies\\Assets\\Scripts\\Plant.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Plant.cs",
               "ToolTip": "F:\\Unity\\Demo1\\PlantVSZombies\\Assets\\Scripts\\Plant.cs",
               "RelativeToolTip": "Assets\\Scripts\\Plant.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowDgAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA5wCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T09:49:46.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T09:49:46.922Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "SunManager.cs",
               "DocumentMoniker": "F:\\Unity\\Demo1\\PlantVSZombies\\Assets\\Scripts\\Manager\\SunManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\SunManager.cs",
@@ -83,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Card.cs",
               "DocumentMoniker": "F:\\Unity\\Demo1\\PlantVSZombies\\Assets\\Scripts\\Card.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Card.cs",

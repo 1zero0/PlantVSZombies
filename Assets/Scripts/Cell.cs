@@ -7,7 +7,7 @@ public class Cell : MonoBehaviour
     public Plant currentPlant;
     private void OnMouseDown()
     {
-        print("Cell OnMouseDown");
+
         HandManager.Instance.OnCellCilck(this);
     }
 
