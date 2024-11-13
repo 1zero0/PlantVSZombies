@@ -7,6 +7,6 @@ public class Sun : MonoBehaviour
 {
     public void JumpTo(Vector3 positon)
     {
-
+        transform.DOPath()
     }
 }
