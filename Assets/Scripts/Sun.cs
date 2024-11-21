@@ -17,4 +17,9 @@ public class Sun : MonoBehaviour
         transform.DOPath(new Vector3[] { transform.position, centerPos, targetPos },
             moveDuration, PathType.CatmullRom).SetEase(Ease.OutQuad);   // 表示先快后慢
     }
+
+    public void OnMouseDown()
+    {
+        
+    }
 }
