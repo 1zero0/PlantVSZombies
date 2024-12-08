@@ -7,6 +7,7 @@ using DG.Tweening;
 public class Sun : MonoBehaviour
 {
     public float moveDuration = 1;
+    public int point = 50;
     public void JumpTo(Vector3 targetPos)
     {
         Vector3 centerPos = (transform.position + targetPos) / 2;
@@ -18,8 +19,8 @@ public class Sun : MonoBehaviour
             moveDuration, PathType.CatmullRom).SetEase(Ease.OutQuad);   // 表示先快后慢
     }
 
-    public void OnMouseDown()
+    void OnMouseDown()
     {
-        
+        SunManager.Instance.AddSun(point);
     }
 }

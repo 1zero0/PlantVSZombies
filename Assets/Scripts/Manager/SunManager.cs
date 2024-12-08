@@ -35,4 +35,10 @@ public class SunManager : MonoBehaviour
         sunPoint -= point;
         UpdateSunPointText();
     }
+
+    public void AddSun(int point)
+    {
+        sunPoint += point;
+        UpdateSunPointText();
+    }
 }
