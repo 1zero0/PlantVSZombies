@@ -8,8 +8,15 @@ public class Sun : MonoBehaviour
 {
     public float moveDuration = 1;
     public int point = 50;
+
+
+    public void LinearTo(Vector3 targetPos)
+    {
+        transform.DOMove(targetPos, moveDuration);
+    }
     public void JumpTo(Vector3 targetPos)
     {
+        targetPos.z = -1;
         Vector3 centerPos = (transform.position + targetPos) / 2;
         float distance = Vector3.Distance(transform.position, targetPos);
 
@@ -21,6 +28,17 @@ public class Sun : MonoBehaviour
 
     void OnMouseDown()
     {
-        SunManager.Instance.AddSun(point);
+        
+
+
+        transform.DOMove(SunManager.Instance.GetSunPointTextPosition(), moveDuration)
+            .SetEase(Ease.OutQuad) // 链式编程
+            .OnComplete(
+            () =>
+            {
+                Destroy(this.gameObject); // 销毁自身得函数
+                SunManager.Instance.AddSun(point);
+            }
+            );
     }
 }
