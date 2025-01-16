@@ -458,9 +458,9 @@ namespace UnityEditor.Tilemaps
                 if (paletteAsset != null)
                 {
                     // Handle Cell Sizing for Palette
+                    var paletteGrid = m_PaletteInstance.GetComponent<Grid>();
                     if (paletteAsset.cellSizing == GridPalette.CellSizing.Automatic)
                     {
-                        var paletteGrid = m_PaletteInstance.GetComponent<Grid>();
                         if (paletteGrid != null)
                         {
                             paletteGrid.cellSize = GridPaletteUtility.CalculateAutoCellSize(paletteGrid, paletteGrid.cellSize);
@@ -477,9 +477,11 @@ namespace UnityEditor.Tilemaps
 
                     // Handle Camera View for Grid
                     m_CameraSwizzleView = GridLayout.CellSwizzle.XYZ;
-                    var instanceGrid = m_PaletteInstance.GetComponent<Grid>();
-                    if (instanceGrid != null)
-                        m_CameraSwizzleView = instanceGrid.cellSwizzle;
+                    if (paletteGrid != null && (tilemap == null || tilemap.orientation != Tilemap.Orientation.XY))
+                    {
+                        // Set SwizzleView only if Tilemap is not oriented to XY
+                        m_CameraSwizzleView = paletteGrid.cellSwizzle;
+                    }
                 }
                 else
                 {

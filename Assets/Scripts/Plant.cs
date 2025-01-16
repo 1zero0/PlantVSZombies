@@ -17,6 +17,8 @@ public class Plant : MonoBehaviour
         TransitionToDisable();
     }
 
+
+    // 判断植物不同状态，去执行不同状态下Update的方法
     private void Update()
     {
         switch (plantState)
@@ -40,13 +42,13 @@ public class Plant : MonoBehaviour
     {
 
     }
-
+    // 转换成Disable的方法
     void TransitionToDisable()
     {
         plantState = PlantState.Disable;
         GetComponent<Animator>().enabled = false;
     }
-
+    // 转换成Enable的方法
     public void TransitionToEnable()
     {
         plantState = PlantState.Enable;
