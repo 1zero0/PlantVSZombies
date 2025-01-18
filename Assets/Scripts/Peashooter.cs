@@ -10,6 +10,10 @@ public class Peashooter : Plant
     private float shootTimer = 0;
     // 用来定位射击的点
     public Transform shootPointTransform;
+    // 用来对peabullet进行一个持有
+    public PeaBullet peaBulletPrefab;
+    // 用来控制子弹射击的速度
+    public float bulletSpeed = 5;
 
 
     // 重写Enable方法来控制豌豆射手进行射击
@@ -23,9 +27,11 @@ public class Peashooter : Plant
             shootTimer = 0;
         }
     }
-    // 需要一个射击的方法（这里先让它输出shoot）
+    // 需要一个射击的方法（这里先让它输出shoot）这里不存在两个参数的方法，所以需要给它一个旋转值（Quaternion.identity）
     void Shoot()
     {
-        print("shoot");
+        PeaBullet pb = GameObject.Instantiate(peaBulletPrefab, shootPointTransform.position, Quaternion.identity);
+        // 将bulletSpeed传递过去
+        pb.SetSpeed(bulletSpeed);
     }
 }
