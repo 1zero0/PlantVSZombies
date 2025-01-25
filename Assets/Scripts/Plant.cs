@@ -47,12 +47,18 @@ public class Plant : MonoBehaviour
     {
         plantState = PlantState.Disable;
         GetComponent<Animator>().enabled = false;
+
+        // 当我们生成植物时，先将Collider禁用掉，当它种植的时候再启用Collider
+        GetComponent<Collider2D>().enabled = false;
     }
     // 转换成Enable的方法
     public void TransitionToEnable()
     {
         plantState = PlantState.Enable;
         GetComponent<Animator>().enabled = true;
+
+        // 当我们生成植物时，先将Collider禁用掉，当它种植的时候再启用Collider
+        GetComponent<Collider2D>().enabled = true;
     }
     
 }

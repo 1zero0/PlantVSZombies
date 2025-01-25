@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "F:\\Unityzong\\UnityDemo\\Demo1\\PlantVSZombies\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|f:\\unityzong\\unitydemo\\demo1\\plantvszombies\\assets\\scripts\\zombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|f:\\unityzong\\unitydemo\\demo1\\plantvszombies\\assets\\scripts\\peashooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\peashooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|F:\\Unityzong\\UnityDemo\\Demo1\\PlantVSZombies\\assets\\peabullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|solutionrelative:assets\\peabullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{90F2E658-F88A-9CF0-B53F-3BA65B80B3CB}|Assembly-CSharp.csproj|F:\\Unityzong\\UnityDemo\\Demo1\\PlantVSZombies\\assets\\scripts\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,19 +35,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Zombie.cs",
+              "DocumentMoniker": "F:\\Unityzong\\UnityDemo\\Demo1\\PlantVSZombies\\Assets\\Scripts\\Zombie.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Zombie.cs",
+              "ToolTip": "F:\\Unityzong\\UnityDemo\\Demo1\\PlantVSZombies\\Assets\\Scripts\\Zombie.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Zombie.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T07:46:15.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PeaBullet.cs",
+              "DocumentMoniker": "F:\\Unityzong\\UnityDemo\\Demo1\\PlantVSZombies\\Assets\\PeaBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\PeaBullet.cs",
+              "ToolTip": "F:\\Unityzong\\UnityDemo\\Demo1\\PlantVSZombies\\Assets\\PeaBullet.cs",
+              "RelativeToolTip": "Assets\\PeaBullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T10:37:20.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Peashooter.cs",
               "DocumentMoniker": "F:\\Unityzong\\UnityDemo\\Demo1\\PlantVSZombies\\Assets\\Scripts\\Peashooter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Peashooter.cs",
               "ToolTip": "F:\\Unityzong\\UnityDemo\\Demo1\\PlantVSZombies\\Assets\\Scripts\\Peashooter.cs",
               "RelativeToolTip": "Assets\\Scripts\\Peashooter.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAADwvyQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-14T12:43:11.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "HandManager.cs",
               "DocumentMoniker": "F:\\Unityzong\\UnityDemo\\Demo1\\PlantVSZombies\\Assets\\Scripts\\Manager\\HandManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\HandManager.cs",
@@ -51,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Plant.cs",
               "DocumentMoniker": "F:\\Unityzong\\UnityDemo\\Demo1\\PlantVSZombies\\Assets\\Scripts\\Plant.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Plant.cs",
