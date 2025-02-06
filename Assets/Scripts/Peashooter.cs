@@ -14,6 +14,8 @@ public class Peashooter : Plant
     public PeaBullet peaBulletPrefab;
     // 用来控制子弹射击的速度
     public float bulletSpeed = 5;
+    // 豌豆射手的豌豆伤害。
+    public int atkValue = 20;
 
 
     // 重写Enable方法来控制豌豆射手进行射击
@@ -33,5 +35,7 @@ public class Peashooter : Plant
         PeaBullet pb = GameObject.Instantiate(peaBulletPrefab, shootPointTransform.position, Quaternion.identity);
         // 将bulletSpeed传递过去
         pb.SetSpeed(bulletSpeed);
+        // 将豌豆的伤害设置过去
+        pb.SetATKValue(atkValue);
     }
 }
