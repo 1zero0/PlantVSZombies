@@ -98,6 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d759c422628b6642b5bfa3b13db8933, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  peaBulletHitPrefab: {fileID: 3397392870026577975, guid: 55a2531ab64690e4e99f63b14d694e49, type: 3}
 --- !u!58 &8909022411389722410
 CircleCollider2D:
   m_ObjectHideFlags: 0

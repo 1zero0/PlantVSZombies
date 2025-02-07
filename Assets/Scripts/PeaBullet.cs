@@ -9,6 +9,8 @@ public class PeaBullet : MonoBehaviour
 
     // 豌豆伤害(豌豆的伤害用豌豆射手来进行一个伤害控制）
     private int atkValue = 30;
+    // 对于爆炸特效进行一个持有
+    public GameObject peaBulletHitPrefab;
     // 设置一个方法用来更改豌豆伤害
     public void SetATKValue(int atkValue)
     {
@@ -40,6 +42,10 @@ public class PeaBullet : MonoBehaviour
             Destroy(this.gameObject);
             // 得到僵尸的脚本，然后应用脚本中的受伤方法，并将伤害传递过去
             collision.GetComponent<Zombie>().TakeDamage(atkValue);
+            // 将爆裂特效进行实例化
+            GameObject go = GameObject.Instantiate(peaBulletHitPrefab, transform.position, Quaternion.identity);
+            // 销毁爆炸特效
+            Destroy(go, 1);
         }
     }
 }
